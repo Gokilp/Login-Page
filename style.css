@@ -1,0 +1,56 @@
+body {
+    background: url("https://plus.unsplash.com/premium_photo-1675807480741-294f8cbff396?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.regform{
+        width: 500px;
+        background-color:rgb(0,0,0,0.4);
+        color:white;
+        margin: 250px auto;
+        padding: 10px 20px 50px;
+        font-size: 20px;
+        border-radius:10px;
+      
+}
+
+.regform h3{
+ text-align:center;
+ color:bisque
+}
+.regform .textlabel{
+  display:block;
+   
+}
+ .input input {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 10px,10px;
+  border-radius:15px;
+  box-sizing:border-box;
+  margin:5px 0px 15px;
+}
+
+input:focus
+{
+  background-color:#83C5BE;
+}
+
+.button {
+  text-align: center;
+}
+
+button{
+  font-size:30px;
+  margin-top:40px;
+  padding:15px 25px;
+  border-radius:8px;
+  border: 1px solid #006D77;
+  box-shadow:2px;
+}
+.radio input{
+  accent-color: #83C5BE;
+  transform:scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+}
